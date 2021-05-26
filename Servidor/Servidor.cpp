@@ -43,7 +43,7 @@ public:
     //Función que se encarga de recibir y almacenar temporalmente en un size de buffer el mensaje que se recibirá por el cliente.
     void Recibir() 
     {
-        recv(client, buffer, sizeof(buffer), 0); //La funcion recv() devuelve el número de bytes leídos, recibidosy el buffer apuntado será quien contiene los datos recibidos
+        recv(client, buffer, sizeof(buffer), 0); //La funcion recv() devuelve el número de bytes leídos y recibidos por lo que el buffer apuntado será quien contenga los datos recibidos
         // Si no existe error se retorna un 0 en caso contrario sera un -1.
         cout << "\nCliente dice: " << buffer << endl;
         memset(buffer, 0, sizeof(buffer));
