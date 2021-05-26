@@ -5,6 +5,7 @@
 ###### Para este proyecto orientamos la importancia de mantener a una corporación unida y en comunicación en los procesos de la empresa para el intercambio de información y transferencia de datos o archivos, así como, la agilidad y disponibilidad en el trabajo de equipo buscando su valor y crecimiento. 
 ###### Se planea construir un programa para el intercambio de información y comunicación entre dos computadoras implementando un chat de manera local, es decir en la misma red. A partir de la necesidad de facilitar la comunicación y la interoperalidad entre dispositivos, pero para lograr este objetivo se tendrá que considerar ciertas cosas a nivel sistema operativo para que no sucedan algunos problemas o errores al momento de la conexión y comunicación entre computadoras.
 ###### Uno de los problemas puede ser la definición de un socket incorrecto por lo cual es muy importante verificar y asegurarse de tener los datos correctos de origen y destino. Los recursos no disponibles pueden ser otro de los problemas por lo que se necesita verificar los recursos disponibles en cada dispositivo. Existen otros problemas cómo: \cite{ibm:2014}
+######
   * Un argumento que se pasa una función específica no sea válido o el socket este cerrado.
   * Demasiados archivos abiertos en el sistema pueden no alcanzar los recursos.
   * Un proceso interrumpido.
