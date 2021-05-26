@@ -1,0 +1,4 @@
+﻿  MPISO.cpp
+C:\Users\Mayra Hernandez\Desktop\MPISO\MPISO.cpp(28,29): warning C4101: 'clientAddr': variable local sin referencia
+C:\Users\Mayra Hernandez\Desktop\MPISO\MPISO.cpp(27,20): warning C4101: 'client': variable local sin referencia
+  MPISO.vcxproj -> C:\Users\Mayra Hernandez\Desktop\MPISO\Debug\MPISO.exe
