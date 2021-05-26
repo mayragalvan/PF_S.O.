@@ -39,7 +39,7 @@ public:
     {
         cout << "\nEscribir mensaje:" << endl; // Se escribe el mensaje.
         cin >> this->buffer; //Se guarda el mensaje ne el buffer.
-        send(server, buffer, sizeof(buffer), 0); //Enviar mensaje en el buffer la función es similar a un write())
+        send(server, buffer, sizeof(buffer), 0); //Enviar mensaje apuntado al buffer la función es similar a un write())
         cout << "\t------------------- Mensaje enviado! -------------------\t" << endl;
         memset(buffer, 0, sizeof(buffer)); //Se resetea el buffer.
     }// Se envia el paquete de mensaje de escritura.
@@ -47,7 +47,7 @@ public:
     //Función que se encarga de recibir y almacenar temporalmente en un size de buffer el mensaje que se recibirá por el cliente.
     void Recibir()
     {
-        recv(server, buffer, sizeof(buffer), 0);  //Enviar mensaje (read())
+        recv(server, buffer, sizeof(buffer), 0);  //Recibe el mensaje la función recv() se comporta como la función read() es de lectura.
         cout << "\nServidor dice: " << buffer << endl;
         memset(buffer, 0, sizeof(buffer));
     }// Se recibió el paquete se hace una lectura del contenido y se libera el buffer.
