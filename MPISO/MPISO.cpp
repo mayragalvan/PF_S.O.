@@ -50,7 +50,7 @@ int main(int argc, char** argv) // Números de argumentos y vector de argumentos
     //y la solicitud se almacena en el request de envío. La función esta preparando la ejecución y se ejecuta cuando ambos proceos están listos para sincronizarse.
     int recv_data;
     MPI_Recv(&recv_data, 1, MPI_INT, (rank + size - 1) % size, 1, MPI_COMM_WORLD, MPI_STATUS_IGNORE); // La función que completa la petición al recibirla y pasa a la que sigue.
-    printf("Proceso %i recibe %i\n", rank, recv_data);
+    cout <<"Proceso" << rank << "recibe" << recv_data << endl; //Imprime número de proceso en el rango de procesos y el número assignado según la secuencial de procesos.
     
     cout << "Listo para conexiones... Proceso: " << rank << endl;
 
