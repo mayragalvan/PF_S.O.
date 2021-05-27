@@ -1,2 +1,0 @@
-C:\Users\Mayra Hernandez\Desktop\Servidor\Debug\Servidor.exe
-C:\Users\Mayra Hernandez\Desktop\Servidor\Debug\Servidor.pdb
